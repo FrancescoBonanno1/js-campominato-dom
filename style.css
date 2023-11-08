@@ -18,6 +18,12 @@ header img{
     top: 2%;
 
 }
+#difficoltà{
+    position: absolute;
+    right: 10%;
+    bottom: 40%;
+    width: 4%;
+}
 #btnGO{
     background-color: rgb(201, 38, 32);
     color: rgb(235, 231, 231);

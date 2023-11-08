@@ -1,6 +1,9 @@
 //andiamo a recuperare classi e formattazioni con create element e classlist add, generiamo un ciclo for per fare il lavoro sporco al posto nostro
-let numerocelle = 80;
 let contenitore = document.getElementById("contenitore");
+const livello = document.getElementsByClassName("livello").value;
+
+//ora voglio impostare le difficoltà e legarle ad un ciclo o ad una funzione che mi crei le celle desiderate
+
 
 for (let i = 1; i<= numerocelle; i++) {
     const cella = document.createElement("div");
